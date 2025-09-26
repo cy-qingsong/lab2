@@ -1,0 +1,89 @@
+﻿@charset "utf-8";
+
+/* 字体 */
+@font-face {
+  font-family: myFont;
+  src: url(cac_champagne.ttf);
+}
+
+.title-text{
+  font-family: myFont;
+  font-size: 2.5em;
+  margin: 1px;
+}
+.title2 {
+  font-family: myFont;
+}
+/* 全局文字 */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #eee;
+}
+
+footer {
+  background: #121010;
+  color: white;
+}
+
+header > nav {
+  background: rgb(148, 105, 148); /* 顶部导航背景 */
+}
+
+header > nav a {
+  color: white;
+  text-decoration: none;
+}
+
+header > nav a:hover {
+  text-decoration: underline;
+  color: #ffd700;
+}
+
+/* Notes 卡片背景 */
+#leftcol aside.notes {
+  background: rgb(218, 168, 67);
+  color: white;
+  border-radius: 5px;
+}
+
+/* Upcoming Events 卡片背景 */
+#leftcol aside.events {
+  background: rgb(171, 183, 114);
+  color: rgb(244, 233, 233);
+  border-radius: 5px;
+}
+
+/* 右栏标题 */
+#rightcol h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+#leftcol {
+  background: rgb(15, 15, 16); /* 黑色 */
+  color: white;
+  padding: 20px;   /* 加内边距，留出空隙 */
+}
+
+#rightcol {
+  background: rgb(96, 50, 96); /* 紫色 */
+  color: white;
+  padding: 20px;   /* 同样留出空隙 */
+}
+/* 只让 Notes 和 Upcoming 的标题居中 */
+aside.notes h1,
+aside.events h1,
+aside.events h2 {
+  text-align: center;
+}
+h1 {
+  font-size: 1.9em;  /* 明确比 h2 大 */
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+#special-text{
+    color: rgb(242, 201, 242); 
+   }
